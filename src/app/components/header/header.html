@@ -1,0 +1,9 @@
+<nav class="header navbar  navbar-fixed-top" role="navigation">
+	  <ul class="navbar-item" data-ng-repeat="n in header.nav" > 
+	  		<li class="navbar-item">
+		  		<a ui-sref="{{n.name}}">
+		  			<i class="{{n.icon}}"></i> {{n.title}}
+		  		</a>
+		  	</li>
+	  </ul>
+</nav>

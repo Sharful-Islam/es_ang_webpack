@@ -1,0 +1,13 @@
+<div class="jumbotron">
+    <div class="container">
+        <h1>{{contact.content.title}}</h1>
+        <p>{{contact.content.lede}}</p>
+		<p>{{contact.content.body}}</p>
+		<ul data-ng-if="contact.content.links">
+			<li class="btn btn-info btn-sm" data-ng-repeat="link in contact.content.links" ui-sref="{{link.sref}}">
+				{{link.name}}
+			</li>
+		</ul>
+        
+    </div>
+</div>
