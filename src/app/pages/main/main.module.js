@@ -1,6 +1,6 @@
 'use strict';
 
-import './main.scss';
+//import './main.scss';
 
 import * as route from './main.route';
 

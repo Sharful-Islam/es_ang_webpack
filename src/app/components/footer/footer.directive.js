@@ -21,4 +21,4 @@ function footerComponent($log) {
 
 }
 
-export default footerComponent;
+(exports ? exports default footerComponent : '');

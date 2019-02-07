@@ -1,7 +1,7 @@
 'use strict';
 
 import * as headerDirective from './header.directive';
-import './header.scss';
+//import './header.scss';
 
 const headerModule = angular.module('header-module', []);
 

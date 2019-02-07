@@ -1,6 +1,6 @@
 'use strict';
 
-import './contact.scss';
+//import './contact.scss';
 
 import * as route from './contact.route';
 

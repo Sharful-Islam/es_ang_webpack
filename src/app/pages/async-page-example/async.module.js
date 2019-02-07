@@ -1,6 +1,6 @@
 'use strict';
 
-import './async.scss';
+//import './async.scss';
 
 import * as asyncController from './async.controller.js';
 

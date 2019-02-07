@@ -1,6 +1,6 @@
 'use strict';
 
-import './about.scss';
+//import './about.scss';
 
 import * as route from './about.route';
 import * as aboutController from './about.controller.js';
